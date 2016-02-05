@@ -1,0 +1,25 @@
+{
+  "name": "data-behaviours",
+  "version": "1.0.0",
+  "description": "Form, data behaviours",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierr/data-behaviours.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "data",
+    "focus"
+  ],
+  "author": "Pierre Besson <Pierre.besson7+npm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pierr/data-behaviours/issues"
+  },
+  "homepage": "https://github.com/pierr/data-behaviours#readme"
+}

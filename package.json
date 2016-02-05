@@ -4,7 +4,23 @@
   "description": "Form, data behaviours",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "better-npm-run dev-server"
+  },
+  "betterScripts": {
+    "dev-server":{
+       "command": "node ./server.js",
+       "env": {
+         "DEV": true,
+         "SOURCE_MAP": false,
+         "ENTRY_FILE_PATH": "./example/index",
+         "PAGE_TITLE": "Focus entity dev page",
+         "MINIMIFY": false,
+         "API_PORT": 9999,
+         "PACKAGE_JSON_PATH": "../",
+         "ANCHOR_CLASS": "entity-example"
+       }
+     }
   },
   "repository": {
     "type": "git",
@@ -21,5 +37,20 @@
   "bugs": {
     "url": "https://github.com/pierr/data-behaviours/issues"
   },
-  "homepage": "https://github.com/pierr/data-behaviours#readme"
+  "homepage": "https://github.com/pierr/data-behaviours#readme",
+  "devDependencies": {
+    "better-npm-run": "0.0.6",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "faker": "^3.0.1",
+    "lodash": "^4.2.1",
+    "material-design-icons-iconfont": "^2.0.4",
+    "material-design-lite": "^1.1.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-redux": "^4.3.0",
+    "redux": "^3.2.1",
+    "redux-thunk": "^1.0.3",
+    "webpack-focus": "^0.10.1"
+  }
 }

@@ -1,4 +1,4 @@
-import React , { Component , PropTypes }from 'react';
+import React , { Component , PropTypes } from 'react';
 export default function Data(){
-  return <div>Data</div>
+  return <div>Your Component</div>
 }

@@ -14,7 +14,7 @@
         "DEV": true,
         "SOURCE_MAP": false,
         "ENTRY_FILE_PATH": "./src/example/index",
-        "PAGE_TITLE": "Focus entity dev page",
+        "PAGE_TITLE": "Gamification",
         "MINIMIFY": false,
         "API_PORT": 9999,
         "PACKAGE_JSON_PATH": "../",
@@ -70,5 +70,8 @@
     "webpack": "^1.12.13",
     "webpack-dev-server": "^1.14.1",
     "webpack-focus": "^0.10.1"
+  },
+  "dependencies": {
+    "firebase": "^2.4.1"
   }
 }
